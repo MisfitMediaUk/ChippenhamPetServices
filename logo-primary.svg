@@ -1,18 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" role="img" aria-label="Chippenham Pet Services logo">
-  <g transform="translate(30 20)">
-    <path d="M168 236C99 190 52 145 52 91c0-34 24-59 58-59 20 0 38 9 50 25 12-16 30-25 50-25 34 0 58 25 58 59 0 54-47 99-116 145Z" fill="#1f5b3a"/>
-    <path d="M111 91c-8 0-15 5-19 13-3 7-3 20 3 32 8 18 20 25 35 31-4-10-5-19-5-29 0-13 3-30 12-47-8 0-17 0-26 0Z" fill="#f6efe4"/>
-    <path d="M194 90c-6 0-13 2-18 6 13 16 18 34 18 53 0 7-1 13-3 20 23-10 40-31 40-57 0-13-5-22-12-22-9 0-16 0-25 0Z" fill="#f6efe4"/>
-    <path d="M145 135c-14 0-26 15-26 33 0 25 17 47 43 47s43-22 43-47c0-18-12-33-26-33-11 0-17 5-17 5s-6-5-17-5Z" fill="#f6efe4"/>
-    <circle cx="140" cy="129" r="3.2" fill="#f6efe4"/>
-    <circle cx="183" cy="129" r="3.2" fill="#f6efe4"/>
-    <path d="M144 176c8-7 27-7 35 0" fill="none" stroke="#1f5b3a" stroke-width="6" stroke-linecap="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-label="Chippenham Pet Services logo">
+  <rect width="980" height="300" fill="none"/>
+  <image href="logo-heart.png" x="0" y="8" width="320" height="284" preserveAspectRatio="xMidYMid meet"/>
   <g fill="#1f5b3a">
-    <text x="285" y="135" font-size="92" font-family="Georgia, Times New Roman, serif" font-style="italic">Chippenham</text>
-    <text x="287" y="214" font-size="54" font-family="Georgia, Times New Roman, serif" letter-spacing="4">PET SERVICES</text>
-    <text x="290" y="260" font-size="22" font-family="Trebuchet MS, Segoe UI, sans-serif" letter-spacing="6">GENTLE LOCAL CARE</text>
+    <text x="344" y="122" font-size="90" font-family="Georgia, 'Times New Roman', serif" font-style="italic">Chippenham</text>
+    <text x="350" y="200" font-size="54" font-family="Georgia, 'Times New Roman', serif" letter-spacing="4">PET SERVICES</text>
+    <text x="352" y="242" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', Tahoma, sans-serif" letter-spacing="5">GENTLE LOCAL CARE</text>
   </g>
-  <circle cx="844" cy="72" r="22" fill="#c9a441"/>
-  <path d="M846 58c-9 0-16 7-16 16 0 15 16 26 16 26s16-11 16-26c0-9-7-16-16-16Z" fill="#f6efe4"/>
 </svg>
