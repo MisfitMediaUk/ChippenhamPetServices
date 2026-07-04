@@ -1,18 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" role="img" aria-label="Chippenham Pet Services logo">
-  <g transform="translate(30 20)">
-    <path d="M168 236C99 190 52 145 52 91c0-34 24-59 58-59 20 0 38 9 50 25 12-16 30-25 50-25 34 0 58 25 58 59 0 54-47 99-116 145Z" fill="#1f5b3a"/>
-    <path d="M111 91c-8 0-15 5-19 13-3 7-3 20 3 32 8 18 20 25 35 31-4-10-5-19-5-29 0-13 3-30 12-47-8 0-17 0-26 0Z" fill="#f6efe4"/>
-    <path d="M194 90c-6 0-13 2-18 6 13 16 18 34 18 53 0 7-1 13-3 20 23-10 40-31 40-57 0-13-5-22-12-22-9 0-16 0-25 0Z" fill="#f6efe4"/>
-    <path d="M145 135c-14 0-26 15-26 33 0 25 17 47 43 47s43-22 43-47c0-18-12-33-26-33-11 0-17 5-17 5s-6-5-17-5Z" fill="#f6efe4"/>
-    <circle cx="140" cy="129" r="3.2" fill="#f6efe4"/>
-    <circle cx="183" cy="129" r="3.2" fill="#f6efe4"/>
-    <path d="M144 176c8-7 27-7 35 0" fill="none" stroke="#1f5b3a" stroke-width="6" stroke-linecap="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" role="img" aria-label="Chippenham Pet Services logo">
   <g fill="#1f5b3a">
-    <text x="285" y="135" font-size="92" font-family="Georgia, Times New Roman, serif" font-style="italic">Chippenham</text>
-    <text x="287" y="214" font-size="54" font-family="Georgia, Times New Roman, serif" letter-spacing="4">PET SERVICES</text>
-    <text x="290" y="260" font-size="22" font-family="Trebuchet MS, Segoe UI, sans-serif" letter-spacing="6">GENTLE LOCAL CARE</text>
+    <text x="460" y="82" text-anchor="middle" font-size="88" font-family="Georgia, Times New Roman, serif" font-style="italic">Chippenham</text>
   </g>
-  <circle cx="844" cy="72" r="22" fill="#c9a441"/>
-  <path d="M846 58c-9 0-16 7-16 16 0 15 16 26 16 26s16-11 16-26c0-9-7-16-16-16Z" fill="#f6efe4"/>
+
+  <g transform="translate(250 98)">
+    <path d="M210 218C126 163 68 111 68 52c0-38 27-66 66-66 24 0 45 11 58 29 14-18 34-29 58-29 39 0 66 28 66 66 0 59-58 111-142 166l-32 21Z" fill="#1f5b3a"/>
+    <path d="M97 90c17-48 44-75 92-89-10 20-14 40-14 69 0 33 7 58 18 85-47-20-81-39-96-65Z" fill="#f7efe1"/>
+    <path d="M258 8c37 9 66 37 84 86-12 22-34 39-67 53 9-23 14-46 14-74 0-27-5-46-31-65Z" fill="#f7efe1"/>
+    <path d="M198 120c-20 0-39 20-39 46 0 35 23 67 58 67s58-32 58-67c0-26-19-46-39-46-12 0-19 4-19 4s-7-4-19-4Z" fill="#f7efe1"/>
+    <path d="M131 33c17 3 32 13 43 31 14 24 14 54 8 86l-15-8c3-23 1-45-7-64-6-15-16-28-29-45Z" fill="#f7efe1"/>
+    <path d="M274 34c11 12 20 25 25 41 8 22 8 45 5 69l-16 6c-3-33-3-63-15-87-7-14-15-22-29-29Z" fill="#f7efe1"/>
+    <path d="M165 210c11 22 29 37 52 48-21 4-49 4-78-2 6-18 14-33 26-46Z" fill="#1f5b3a"/>
+    <path d="M273 170c16 4 35 9 52 21-18 7-34 17-49 33l-33-5c10-17 20-33 30-49Z" fill="#1f5b3a"/>
+    <path d="M195 241c10 2 20 2 30 0-7 18-5 34 5 52-24 0-45-6-61-18 14-11 22-21 26-34Z" fill="#f7efe1"/>
+    <path d="M256 233c15-12 33-18 53-19-15 12-26 24-33 39-13-6-21-12-20-20Z" fill="#f7efe1"/>
+  </g>
+
+  <g fill="#1f5b3a">
+    <text x="460" y="306" text-anchor="middle" font-size="56" font-family="Georgia, Times New Roman, serif" letter-spacing="5">PET SERVICES</text>
+    <text x="460" y="342" text-anchor="middle" font-size="22" font-family="Trebuchet MS, Segoe UI, sans-serif" letter-spacing="6">GENTLE LOCAL CARE</text>
+  </g>
 </svg>
