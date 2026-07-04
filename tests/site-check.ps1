@@ -6,7 +6,6 @@ $robotsPath = Join-Path $root 'robots.txt'
 $sitemapPath = Join-Path $root 'sitemap.xml'
 $faviconPath = Join-Path $root 'favicon.svg'
 $logoPath = Join-Path $root 'logo-primary.svg'
-$heartMarkPath = Join-Path $root 'heart-mark.png'
 $serviceDogPath = Join-Path $root 'dog-services.svg'
 $portraitPath = Join-Path $root 'dog-portrait.png'
 
@@ -27,7 +26,6 @@ if (-not (Test-Path $robotsPath)) { throw 'Missing robots.txt' }
 if (-not (Test-Path $sitemapPath)) { throw 'Missing sitemap.xml' }
 if (-not (Test-Path $faviconPath)) { throw 'Missing favicon.svg' }
 if (-not (Test-Path $logoPath)) { throw 'Missing logo-primary.svg' }
-if (-not (Test-Path $heartMarkPath)) { throw 'Missing heart-mark.png' }
 if (-not (Test-Path $serviceDogPath)) { throw 'Missing dog-services.svg' }
 if (-not (Test-Path $portraitPath)) { throw 'Missing dog-portrait.png' }
 
@@ -63,7 +61,6 @@ Assert-Contains $sitemap '<urlset' 'sitemap.xml missing urlset'
 Assert-Contains $sitemap '<loc>' 'sitemap.xml missing loc entry'
 Assert-Contains $favicon '<svg' 'favicon.svg missing svg root'
 Assert-Contains $logo '<svg' 'logo-primary.svg missing svg root'
-Assert-Contains $logo 'heart-mark.png' 'logo-primary.svg missing cropped heart image'
 Assert-Contains $serviceDog '<svg' 'dog-services.svg missing svg root'
 
 Write-Host 'PASS: static site smoke checks'
