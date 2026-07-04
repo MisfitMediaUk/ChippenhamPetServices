@@ -261,11 +261,10 @@
     }
 
     .hero-media {
-      display: block;
-      position: relative;
-      background:
-        radial-gradient(circle at top right, rgba(202, 166, 69, 0.26), transparent 22%),
-        linear-gradient(180deg, #efe7d6, #f8f2e8);
+      display: flex;
+      align-items: stretch;
+      min-height: 100%;
+      background: linear-gradient(180deg, #efe7d6, #f8f2e8);
     }
 
     .hero-media img {
@@ -275,7 +274,7 @@
     }
 
     .hero-media .portrait {
-      min-height: 500px;
+      min-height: 560px;
     }
 
     .section {
@@ -337,6 +336,8 @@
 
     .price-card {
       position: relative;
+      display: flex;
+      flex-direction: column;
       background:
         linear-gradient(180deg, rgba(255, 250, 242, 0.95), rgba(246, 236, 214, 0.92));
     }
@@ -352,7 +353,9 @@
     }
 
     .price {
-      margin-top: 0.9rem !important;
+      margin-top: auto !important;
+      padding-top: 1.2rem;
+      align-self: end;
       color: var(--accent-deep) !important;
       font-weight: 700;
       font-size: 1.2rem;
@@ -578,9 +581,9 @@
         </div>
         <aside class="editorial-panel">
           <span class="badge">Gentle and reliable</span>
-          <img src="dog-services.svg" alt="Illustrated dogs walking across a warm countryside scene">
           <h3>Care that feels calm from the first visit</h3>
-          <p>The first draft leans into a softer, more editorial tone so the service feels trustworthy, tidy, and clearly built around real pet routines rather than generic pet-business copy.</p>
+          <p>The layout now gives the hero space to breathe with the full realistic dog image on one side and the core message on the other, then drops into a clearer services section underneath without extra decorative illustration competing for attention.</p>
+          <p style="margin-top: 0.9rem;">That keeps the page warmer and more premium while still feeling personal and local.</p>
         </aside>
       </div>
     </section>
@@ -596,22 +599,22 @@
           <article class="price-card">
             <h3>30 minute dog walk</h3>
             <p>Ideal for a regular weekday stretch and sniff.</p>
-            <p class="price">From GBP14</p>
+            <p class="price">From £14</p>
           </article>
           <article class="price-card">
             <h3>60 minute dog walk</h3>
             <p>Longer walks for dogs who enjoy more time outdoors.</p>
-            <p class="price">From GBP22</p>
+            <p class="price">From £22</p>
           </article>
           <article class="price-card">
             <h3>Pop-in visit</h3>
             <p>Short home visit for feeding, fuss, and routine care.</p>
-            <p class="price">From GBP12</p>
+            <p class="price">From £12</p>
           </article>
           <article class="price-card">
             <h3>Pet sitting</h3>
             <p>Calm in-home support for pets who prefer familiar surroundings.</p>
-            <p class="price">From GBP18 per visit</p>
+            <p class="price">From £18 per visit</p>
           </article>
         </div>
       </div>
