@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-label="Illustrated dog portrait">
+  <rect width="720" height="620" rx="40" fill="#f8f1e7"/>
+  <ellipse cx="454" cy="278" rx="205" ry="178" fill="#dce2cd"/>
+  <ellipse cx="130" cy="474" rx="160" ry="104" fill="#c9a441"/>
+  <path d="M84 134c39 12 58 44 68 94 8 43 4 87 11 131M118 112c-13 67-2 143 0 220M112 166c58 17 94-10 121-44" fill="none" stroke="#2e603f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M522 188c34 13 70 37 86 77 26 64 3 145-66 194-67 48-143 53-225 10-60-31-89-86-84-142 4-52 38-102 89-138 57-39 128-40 200-1Z" fill="#fbf6ed"/>
+  <path d="M350 257c-24 67-32 157-1 214-45-16-84-42-104-81-20-41-14-95 24-141 19-24 45-41 81-53Z" fill="#6f4929"/>
+  <path d="M420 183c44 5 95 30 123 67 41 54 42 133 4 191-19 28-46 49-83 61 30-65 18-160 2-236-11-51-23-70-46-83Z" fill="#6f4929"/>
+  <path d="M381 190c-7 46-6 89 8 127 8 21 23 42 46 50-22 13-39 32-53 55-18 31-28 68-33 104-28-33-42-74-43-126-1-65 15-140 75-210Z" fill="#fff8ef"/>
+  <ellipse cx="439" cy="286" rx="53" ry="68" fill="#6f4929"/>
+  <ellipse cx="536" cy="286" rx="64" ry="74" fill="#fff8ef"/>
+  <ellipse cx="488" cy="351" rx="132" ry="118" fill="none" stroke="#6f4929" stroke-width="22"/>
+  <ellipse cx="486" cy="332" rx="103" ry="90" fill="#fff8ef"/>
+  <ellipse cx="486" cy="330" rx="54" ry="42" fill="#f1d7bc"/>
+  <ellipse cx="536" cy="322" rx="20" ry="14" fill="#50331f"/>
+  <circle cx="460" cy="283" r="11" fill="#2f231c"/>
+  <circle cx="545" cy="274" r="10" fill="#2f231c"/>
+  <circle cx="457" cy="279" r="3" fill="#fff"/>
+  <circle cx="543" cy="270" r="3" fill="#fff"/>
+  <path d="M497 350c29 10 45 31 47 60-31 11-66 6-95-13" fill="#d48d86"/>
+  <path d="M467 356c16 12 35 15 49 14" fill="none" stroke="#50331f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M581 411c30 14 66 39 80 74" fill="none" stroke="#c9a441" stroke-width="7" stroke-linecap="round"/>
+  <path d="M612 379c8 36 29 70 53 100" fill="none" stroke="#2e603f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M633 357c14 4 29 1 39-8" fill="none" stroke="#2e603f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="650" cy="155" r="25" fill="#c9a441"/>
+  <path d="M651 141c-9 0-16 7-16 16 0 15 16 26 16 26s16-11 16-26c0-9-7-16-16-16Z" fill="#f8f1e7"/>
+</svg>
