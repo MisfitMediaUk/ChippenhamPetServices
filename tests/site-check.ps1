@@ -6,7 +6,6 @@ $robotsPath = Join-Path $root 'robots.txt'
 $sitemapPath = Join-Path $root 'sitemap.xml'
 $faviconPath = Join-Path $root 'favicon.svg'
 $logoPath = Join-Path $root 'logo-primary.svg'
-$heroDogPath = Join-Path $root 'dog-hero.svg'
 $serviceDogPath = Join-Path $root 'dog-services.svg'
 $portraitPath = Join-Path $root 'dog-portrait.png'
 
@@ -27,7 +26,6 @@ if (-not (Test-Path $robotsPath)) { throw 'Missing robots.txt' }
 if (-not (Test-Path $sitemapPath)) { throw 'Missing sitemap.xml' }
 if (-not (Test-Path $faviconPath)) { throw 'Missing favicon.svg' }
 if (-not (Test-Path $logoPath)) { throw 'Missing logo-primary.svg' }
-if (-not (Test-Path $heroDogPath)) { throw 'Missing dog-hero.svg' }
 if (-not (Test-Path $serviceDogPath)) { throw 'Missing dog-services.svg' }
 if (-not (Test-Path $portraitPath)) { throw 'Missing dog-portrait.png' }
 
@@ -36,7 +34,6 @@ $robots = Get-Content $robotsPath -Raw
 $sitemap = Get-Content $sitemapPath -Raw
 $favicon = Get-Content $faviconPath -Raw
 $logo = Get-Content $logoPath -Raw
-$heroDog = Get-Content $heroDogPath -Raw
 $serviceDog = Get-Content $serviceDogPath -Raw
 
 Assert-Contains $html '<title>' 'Missing page title'
@@ -49,7 +46,6 @@ Assert-Contains $html 'id="coverage"' 'Missing coverage section'
 Assert-Contains $html 'id="contact"' 'Missing contact section'
 Assert-Contains $html 'favicon.svg' 'Missing favicon reference'
 Assert-Contains $html 'logo-primary.svg' 'Missing primary logo reference'
-Assert-Contains $html 'dog-hero.svg' 'Missing hero dog image reference'
 Assert-Contains $html 'dog-services.svg' 'Missing services dog image reference'
 Assert-Contains $html 'dog-portrait.png' 'Missing portrait dog image reference'
 Assert-Contains $html 'full-bleed' 'Missing full-width layout treatment'
@@ -60,7 +56,6 @@ Assert-Contains $sitemap '<urlset' 'sitemap.xml missing urlset'
 Assert-Contains $sitemap '<loc>' 'sitemap.xml missing loc entry'
 Assert-Contains $favicon '<svg' 'favicon.svg missing svg root'
 Assert-Contains $logo '<svg' 'logo-primary.svg missing svg root'
-Assert-Contains $heroDog '<svg' 'dog-hero.svg missing svg root'
 Assert-Contains $serviceDog '<svg' 'dog-services.svg missing svg root'
 
 Write-Host 'PASS: static site smoke checks'
