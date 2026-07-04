@@ -218,7 +218,7 @@
 
     .hero-shell h1 {
       font-size: clamp(2.4rem, 7vw, 4.8rem);
-      max-width: 12ch;
+      max-width: none;
       margin-bottom: 1rem;
     }
 
@@ -271,9 +271,9 @@
       align-items: stretch;
       justify-content: center;
       min-height: 100%;
-      background: linear-gradient(180deg, #efe7d6, #f8f2e8);
-      padding: 1rem;
-      border-radius: calc(var(--radius-xl) - 10px);
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
     }
 
     .hero-media img {
@@ -282,11 +282,11 @@
     }
 
     .hero-media .portrait {
-      min-height: 560px;
+      min-height: 460px;
       object-fit: contain;
       object-position: center;
-      border-radius: calc(var(--radius-xl) - 10px);
-      background: rgba(255, 250, 242, 0.72);
+      border-radius: 0;
+      background: transparent;
     }
 
     .section {
