@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-label="Chippenham Pet Services logo">
   <rect width="980" height="300" fill="none"/>
-  <image href="logo-heart.png" x="0" y="8" width="320" height="284" preserveAspectRatio="xMidYMid meet"/>
+  <image href="logo-heart.png" x="0" y="18" width="320" height="248" preserveAspectRatio="xMidYMid meet"/>
   <g fill="#1f5b3a">
     <text x="344" y="122" font-size="90" font-family="Georgia, 'Times New Roman', serif" font-style="italic">Chippenham</text>
     <text x="350" y="200" font-size="54" font-family="Georgia, 'Times New Roman', serif" letter-spacing="4">PET SERVICES</text>

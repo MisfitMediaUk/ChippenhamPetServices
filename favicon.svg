@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Chippenham Pet Services favicon">
   <rect width="64" height="64" rx="14" fill="#f5efe3"/>
-  <path d="M32 53C19 45 10 36 10 24c0-8 6-14 14-14 4 0 7 2 8 5 2-3 5-5 8-5 8 0 14 6 14 14 0 12-9 21-22 29Z" fill="none" stroke="#1f5b3a" stroke-width="3.5" stroke-linejoin="round"/>
-  <path d="M24 25c0-4 3-7 7-7 2 0 4 1 5 3 1 1 1 4 1 6 0 7-4 13-10 13-2 0-4-1-5-3 1-3 2-8 2-12Z" fill="#1f5b3a"/>
-  <path d="M40 24c4 0 7 4 7 9 0 5-2 8-6 10-3 1-6 0-8-2 3-2 4-6 4-10 0-2 0-4-1-6 1-1 2-1 4-1Z" fill="#1f5b3a"/>
-  <path d="M31 27c3 0 6 4 6 9 0 5-3 9-7 9s-7-4-7-9c0-5 4-9 8-9Z" fill="#1f5b3a"/>
+  <clipPath id="icon-clip">
+    <rect x="6" y="8" width="52" height="48" rx="10"/>
+  </clipPath>
+  <image href="logo-heart.png" x="6" y="8" width="52" height="48" preserveAspectRatio="xMidYMid meet" clip-path="url(#icon-clip)"/>
 </svg>
