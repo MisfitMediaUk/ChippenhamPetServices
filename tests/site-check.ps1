@@ -52,6 +52,8 @@ Assert-Contains $html '--mustard' 'Missing mustard accent color'
 Assert-Contains $html '£14' 'Missing pound pricing format'
 Assert-Contains $html 'price-card' 'Missing price card markup'
 Assert-Contains $html 'align-self: end' 'Missing bottom-aligned pricing layout'
+Assert-Contains $html 'hero-post-actions' 'Missing hero actions row below the main hero panel'
+Assert-Contains $html 'thumbnail-frame' 'Missing framed dog image treatment'
 if ($html.Contains('dog-services.svg')) { throw 'Unexpected doodle image reference' }
 Assert-Contains $robots 'User-agent: *' 'robots.txt missing user-agent rule'
 Assert-Contains $robots 'Sitemap:' 'robots.txt missing sitemap reference'

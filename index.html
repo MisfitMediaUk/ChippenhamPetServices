@@ -180,6 +180,11 @@
       padding: 2.4rem 0 1.2rem;
     }
 
+    .hero-wrap {
+      display: grid;
+      gap: 1rem;
+    }
+
     .hero-shell,
     .card,
     .price-card,
@@ -233,7 +238,12 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.85rem;
-      margin-top: 1.4rem;
+    }
+
+    .hero-post-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
     }
 
     .hero-grid {
@@ -276,6 +286,15 @@
       border-radius: 0;
     }
 
+    .thumbnail-frame {
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 22px;
+      background: rgba(255, 250, 242, 0.82);
+      border: 1px solid rgba(31, 91, 58, 0.12);
+      box-shadow: 0 16px 40px rgba(25, 56, 39, 0.1);
+    }
+
     .hero-media img {
       width: 100%;
       height: 100%;
@@ -285,7 +304,7 @@
       min-height: 460px;
       object-fit: contain;
       object-position: center;
-      border-radius: 0;
+      border-radius: 18px;
       background: transparent;
     }
 
@@ -540,30 +559,34 @@
 
   <main id="main-content">
     <section class="hero section">
-      <div class="hero-shell">
-        <p class="eyebrow">Friendly local pet care</p>
-        <h1>Thoughtful walks and calm home visits for pets who like a familiar face.</h1>
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="hero-intro">Chippenham Pet Services offers reliable one-to-one support for dogs, cats, and smaller pets, with a gentle style built around routine, comfort, and peace of mind.</p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="tel:01234567890">Call 01234567890</a>
-              <a class="button button-link" href="#services">View services</a>
-            </div>
-            <div class="trust-points">
-              <div class="trust-pill">
-                <strong>One familiar carer</strong>
-                A personal service that feels consistent and reassuring.
+      <div class="hero-wrap">
+        <div class="hero-shell">
+          <p class="eyebrow">Friendly local pet care</p>
+          <h1>Thoughtful walks and calm home visits for pets who like a familiar face.</h1>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="hero-intro">Chippenham Pet Services offers reliable one-to-one support for dogs, cats, and smaller pets, with a gentle style built around routine, comfort, and peace of mind.</p>
+              <div class="trust-points">
+                <div class="trust-pill">
+                  <strong>One familiar carer</strong>
+                  A personal service that feels consistent and reassuring.
+                </div>
+                <div class="trust-pill">
+                  <strong>Routine-first approach</strong>
+                  Care built around confidence, feeding times, and the details that help pets settle.
+                </div>
               </div>
-              <div class="trust-pill">
-                <strong>Routine-first approach</strong>
-                Care built around confidence, feeding times, and the details that help pets settle.
+            </div>
+            <div class="hero-media">
+              <div class="thumbnail-frame">
+                <img class="portrait" src="dog-portrait.png" alt="Friendly dog portrait in warm editorial style">
               </div>
             </div>
           </div>
-          <div class="hero-media">
-            <img class="portrait" src="dog-portrait.png" alt="Friendly dog portrait in warm editorial style">
-          </div>
+        </div>
+        <div class="hero-post-actions">
+          <a class="button button-primary" href="tel:01234567890">Call 01234567890</a>
+          <a class="button button-link" href="#services">View services</a>
         </div>
       </div>
     </section>
